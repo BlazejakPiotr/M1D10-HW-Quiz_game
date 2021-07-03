@@ -45,7 +45,7 @@ const startGame = function(){
     // Creating answer nodes and applaying text to it
     const createAnswerContainers = function(){
         questionArr[getRandom][1].incorrectAnswers.push(questionArr[getRandom][1].correctAnswer) // Pushing correct answer into incorrect answers array
-
+        shuffle(questionArr[getRandom][1].incorrectAnswers)
         for (let i = 0; i < 4; i++){
             let createAnswerNode = document.createElement('div')
             createAnswerNode.classList.add('answer')
@@ -57,4 +57,7 @@ const startGame = function(){
     createAnswerContainers()
 }
 
-
+function shuffle(array) {
+    array.sort(() => Math.random() - 0.5);
+    return array
+  }
