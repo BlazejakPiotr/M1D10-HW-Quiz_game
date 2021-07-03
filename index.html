@@ -5,27 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Game - Strive School Homework</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Who wants to be a millionaire</h1>
-        <h2>with Strive School!</h2>
+        <h1>Strive School Quiz Game</h1>
+        <h3>Simple tryout for future students!</h3>
     </header>
     <main>
-        <div> 
-            Your score is: 0
-        </div>
+        <div id="score-counter">Your score is: 0</div>
         <div id="question-container">
             Here would be a question provided to user
         </div>
         <div id="answers-container">
-            <div>A: Example answer</div>    <div>B: Example answer 2</div>
-            <div>C: Example answer</div>    <div>D: Example answer 4</div>
+            <div class="answer choosen">A : Example answer</div>    <div class="answer">B : Example answer 2</div><br>
+            <div class="answer">C : Example answer 3</div>  <div class="answer correct">D : Example answer 4</div>
         </div>
 
     </main>
     <footer>
+        <hr>
         <p>Copryright 2k21 by Strive Student</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
