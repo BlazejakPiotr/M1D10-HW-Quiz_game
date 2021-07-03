@@ -30,4 +30,41 @@
         / Let the user select difficulty and number of questions (you can get q/a from https://opentdb.com/api.php?amount=10&category=18&difficulty=easy modifying amount and difficulty)
 
     -->
+    
+    TODO LIST:
+    ____________
+    • BASIC HTML:
+        - heading for game title
+        • container for game: 
+            - container for question description
+            - containers for answers
+            - container with button to accept selected question
+            - container for point counter
+        - footer with author information
+    ____________
+    • BASIC CSS:
+        - dark theme
+        • styling like in who wants to be a millionaire:
+            - dark-blue to slightly lighter dark-blue gradient for bars like in who wants to be a millionaire
+            - class for choosen answer with orange gradient
+            - class for proper answer with green gradient
+    ____________
+    • BASIC JS:
+        - user must be able to select one answer
+        - after selecting answer user must revcive information is this answer correct or not
+        - if answer is correct, his score must increase 
+        - then user should get next question
+        - repeat previous steps until user answer all questions
+        - after answering all questions, user must recive his final score
+    ____________
+    JS SOLUTIONS:
+        - an object for storing nested objects with question description and an array with correct and incorrect answers
+        - correct answer should be always index[0]
+         - mechanism to shuffle answer location
+
+
+
+
+
+
 
