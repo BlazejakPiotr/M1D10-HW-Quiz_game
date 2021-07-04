@@ -41,7 +41,7 @@ footer {
     display: inline-block;
     background-image: linear-gradient(180deg, rgb(0, 0, 75), rgb(0, 0, 55),  rgb(0, 0, 75));
 }
-.choosen {
+.selected {
     background-image: linear-gradient(180deg, rgb(236, 106, 0), rgb(189, 62, 3),  rgb(236, 106, 0));
 }
 
